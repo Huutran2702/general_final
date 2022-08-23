@@ -1,0 +1,74 @@
+
+body {
+    background-image: url('/GeneralAssignment_NaPTL3/resources/images/anhnen.jpg');
+    background-size: cover;
+    
+}
+.container-fluid .menu{
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgba(25, 146, 72, 0.685);
+}
+.container-fluid .row .col-2 .list-group a {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+.container-fluid .row .col-2 .list-group a:hover {
+    background-color: white;
+    color: rgb(42, 170, 91);
+}
+
+
+.container-fluid .row .col-10 .row .card-header {
+    background-color: rgba(42, 170, 91, 0);
+    font-size: 50px;
+    font-weight: inherit;
+}
+.content{
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+.form-group label{
+    font-weight: bold;
+    font-size: larger;
+}
+form div .btn{
+    font-weight: bold;
+    background-color: rgb(42, 170, 91);
+    color:  white;
+}
+form div .btn:hover{
+    background-color: white;
+    color:  rgb(42, 170, 91);
+    border-color: rgb(42, 170, 91);
+}
+.edit{
+    font-weight: bold;
+    /* background-color: rgb(42, 170, 91); */
+    color:  rgb(17, 80, 252);
+    border-color: rgb(42, 170, 91);
+}
+.edit:hover{
+    font-weight: bold;
+    background-color: rgb(42, 170, 91);
+    color:  white;
+    border-color: rgb(42, 170, 91);
+}
+.delete{
+    font-weight: bold;
+    /* background-color: rgb(42, 170, 91); */
+    color:  rgb(155, 20, 20);
+    border-color: rgb(42, 170, 91);
+}
+.delete:hover{
+    font-weight: bold;
+    background-color: rgb(42, 170, 91);
+    color:  white;
+    border-color: rgb(42, 170, 91);
+}
+td{
+	font-weight: 700;
+}
